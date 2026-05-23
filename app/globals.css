@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-mono);
+  
+  --color-brand-yellow: #FFD700;
+  --color-brand-dark: #000000;
+  --color-brand-cream: #FFFFFF;
+}
+
+/* Custom CSS Scrollbar and styling utilities for high-fidelity look */
+body {
+  background-color: #000000;
+  color: #000000;
+}
+
+::selection {
+  background-color: #FFD700;
+  color: #000000;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFD700;
+  border: 2px solid #000000;
+  border-radius: 0px;
+}
+
+/* Custom Artistic Flair shadows */
+.shadow-neo {
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.shadow-neo-lg {
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+.shadow-neo-xl {
+  box-shadow: 12px 12px 0px 0px #000000;
+}
+
+.shadow-neo-hover:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+
+/* Wavy divider style to resemble sixtep canopy */
+.canopy-scallop {
+  position: relative;
+  height: 24px;
+  background-image: radial-gradient(circle at 12px -12px, transparent 12px, #FFD700 13px);
+  background-size: 24px 24px;
+}
