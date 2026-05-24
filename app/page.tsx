@@ -445,7 +445,7 @@ export default function Home() {
             </div>
 
             {/* Quick Stats Grid */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 hidden">
               <div className="bg-[#FFFFFF] border-4 border-brand-dark rounded-none p-4 shadow-[6px_6px_0px_rgba(0,0,0,1)] hover:translate-y-[-2px] transition-all">
                 <div className="flex gap-2 items-center text-brand-dark font-black text-xs uppercase mb-1">
                   <span className="bg-brand-yellow p-1 border border-brand-dark rounded-none"><Users size={12} /></span>
@@ -705,7 +705,7 @@ export default function Home() {
                 Ready to Join the Comeback Story of the Year?
               </h4>
               <p className="font-sans text-sm font-semibold opacity-90 leading-tight">
-                This is not just another CTO. We are building a strong community-driven movement with long-term vision and massive goals ahead.
+                This is not just another CTO. We are building a strong community driven movement with long term vision and massive goals ahead.
               </p>
             </div>
             <div className="lg:col-span-4 flex justify-start lg:justify-end">
@@ -747,7 +747,7 @@ export default function Home() {
                 </div>
                 
                 <p className="font-sans text-xs md:text-sm text-slate-400 leading-relaxed font-semibold">
-                  A decentralized, community-driven movement aiming to push JustCoin to global elite stature. Built shoulder-to-shoulder by holders worldwide.
+                  A decentralized, community driven movement aiming to push JustCoin to global elite stature. Built shoulder to shoulder by holders worldwide.
                 </p>
               </div>
 
