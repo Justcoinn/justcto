@@ -310,7 +310,7 @@ export default function Home() {
               
               {/* Badge info */}
               <div className="inline-flex items-center gap-2 bg-brand-yellow px-4 py-2 rounded-none border-2 border-brand-dark font-mono font-black text-xs uppercase tracking-wider shadow-[3px_3px_0px_rgba(0,0,0,1)]">
-                <Sparkles size={14} className="text-brand-dark animate-spin" />
+                <Sparkles size={14} className="text-brand-dark animate-spin hidden" />
                 <span>COMMUNITY TAKEOVER IS LIVE</span>
               </div>
 
